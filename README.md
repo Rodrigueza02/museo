@@ -1,8 +1,16 @@
-# MuseoVivo Backend - Minimal
-This is a minimal backend scaffold for MuseoVivo.
+# Museo Vivo - Backend
 
+Este proyecto es el backend del sistema *Museo Vivo*, desarrollado en **Java Spring Boot**.
+Permite gestionar obras de arte (`Artwork`) y cuadros (`Cuadro`) a través de una API RESTful.
 
-## Artwork endpoints
+## Tecnologías
+- Java 17
+- Spring Boot
+- Maven
+- Spring Data JPA
+- H2 / Postgres  
 
-GET /api/artwork/{id} -> returns artwork by id (id is a string like 'obra_01')
-POST /api/artwork -> create or update artwork (JSON body)
+## Ejecución
+```bash
+mvn spring-boot:run
+
