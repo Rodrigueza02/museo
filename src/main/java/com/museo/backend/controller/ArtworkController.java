@@ -1,3 +1,4 @@
+// Controlador para manejar las operaciones sobre obras de arte
 package com.museo.backend.controller;
 
 import com.museo.backend.model.Artwork;
