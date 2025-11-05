@@ -1,3 +1,4 @@
+// Entidad que representa los cuadros del museo
 package com.museo.backend.model;
 
 import jakarta.persistence.*;
