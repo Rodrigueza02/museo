@@ -1,3 +1,4 @@
+// Punto de entrada principal del backend del museo
 package com.museo.backend;
 
 import org.springframework.boot.SpringApplication;
