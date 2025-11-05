@@ -1,3 +1,4 @@
+// Servicio con la lógica de negocio para las obras
 package com.museo.backend.service;
 
 import com.museo.backend.model.Artwork;
