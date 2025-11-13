@@ -1,3 +1,4 @@
+# Archivo YAML con propiedades adicionales de configuración
 spring:
   datasource:
     url: jdbc:postgresql://db.uerkoweysjcsflunegui.supabase.co:5432/museovivo
@@ -12,3 +13,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+server:
+  port: ${PORT:8080}
