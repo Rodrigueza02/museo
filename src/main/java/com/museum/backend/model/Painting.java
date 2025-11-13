@@ -1,5 +1,5 @@
-// Represents a general artwork entity
-package com.museo.backend.model;
+// Represents a painting entity in the museum system
+package com.museum.backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,27 +7,27 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Artwork {
+public class Painting {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String code;
     private String title;
-    private String author;
+    private String artist;
     private String description;
     private String imageUrl;
-    private String type;
+    private String category;
 
-    public Artwork() {}
+    public Painting() {}
 
-    public Artwork(String code, String title, String author, String description, String imageUrl, String type) {
+    public Painting(String code, String title, String artist, String description, String imageUrl, String category) {
         this.code = code;
         this.title = title;
-        this.author = author;
+        this.artist = artist;
         this.description = description;
         this.imageUrl = imageUrl;
-        this.type = type;
+        this.category = category;
     }
 
     public Long getId() {
@@ -50,12 +50,12 @@ public class Artwork {
         this.title = title;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getArtist() {
+        return artist;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setArtist(String artist) {
+        this.artist = artist;
     }
 
     public String getDescription() {
@@ -74,11 +74,11 @@ public class Artwork {
         this.imageUrl = imageUrl;
     }
 
-    public String getType() {
-        return type;
+    public String getCategory() {
+        return category;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setCategory(String category) {
+        this.category = category;
     }
 }

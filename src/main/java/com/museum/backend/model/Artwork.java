@@ -1,5 +1,5 @@
-// Represents a painting entity in the museum system
-package com.museo.backend.model;
+// Represents a general artwork entity
+package com.museum.backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,27 +7,27 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Painting {
+public class Artwork {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String code;
     private String title;
-    private String artist;
+    private String author;
     private String description;
     private String imageUrl;
-    private String category;
+    private String type;
 
-    public Painting() {}
+    public Artwork() {}
 
-    public Painting(String code, String title, String artist, String description, String imageUrl, String category) {
+    public Artwork(String code, String title, String author, String description, String imageUrl, String type) {
         this.code = code;
         this.title = title;
-        this.artist = artist;
+        this.author = author;
         this.description = description;
         this.imageUrl = imageUrl;
-        this.category = category;
+        this.type = type;
     }
 
     public Long getId() {
@@ -50,12 +50,12 @@ public class Painting {
         this.title = title;
     }
 
-    public String getArtist() {
-        return artist;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setArtist(String artist) {
-        this.artist = artist;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public String getDescription() {
@@ -74,11 +74,11 @@ public class Painting {
         this.imageUrl = imageUrl;
     }
 
-    public String getCategory() {
-        return category;
+    public String getType() {
+        return type;
     }
 
-    public void setCategory(String category) {
-        this.category = category;
+    public void setType(String type) {
+        this.type = type;
     }
 }

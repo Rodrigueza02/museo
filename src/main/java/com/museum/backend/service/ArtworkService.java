@@ -1,11 +1,12 @@
 // Service layer for managing artworks
-package com.museo.backend.service;
-
-import com.museo.backend.model.Artwork;
-import com.museo.backend.repository.ArtworkRepository;
-import org.springframework.stereotype.Service;
+package com.museum.backend.service;
 
 import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.museum.backend.model.Artwork;
+import com.museum.backend.repository.ArtworkRepository;
 
 @Service
 public class ArtworkService {
