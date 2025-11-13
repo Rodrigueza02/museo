@@ -1,10 +1,12 @@
 // Initial data loading when starting the application
-package com.museo.backend.config;
+package com.museum.backend.config;
 
-import com.museo.backend.model.Artwork;
-import com.museo.backend.repository.ArtworkRepository;
-import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
+
+import com.museum.backend.model.Artwork;
+import com.museum.backend.repository.ArtworkRepository;
+
+import jakarta.annotation.PostConstruct;
 
 @Component
 public class DataLoader {

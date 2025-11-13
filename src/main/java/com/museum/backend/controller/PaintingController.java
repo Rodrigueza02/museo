@@ -1,9 +1,10 @@
 // Controller that manages operations related to paintings
-package com.museo.backend.controller;
+package com.museum.backend.controller;
 
-import com.museo.backend.model.Painting;
-import com.museo.backend.service.PaintingService;
 import org.springframework.web.bind.annotation.*;
+
+import com.museum.backend.model.Painting;
+import com.museum.backend.service.PaintingService;
 
 import java.util.List;
 

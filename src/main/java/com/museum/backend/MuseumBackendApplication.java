@@ -1,5 +1,5 @@
 // Main entry point of the museum backend
-package com.museo.backend;
+package com.museum.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
