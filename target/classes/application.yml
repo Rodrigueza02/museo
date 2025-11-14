@@ -1,18 +1,20 @@
 spring:
   application:
     name: museovivo-backend
-    
+
   datasource:
     url: jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres
     username: postgres.uerkoweysjcsflunegui
     password: Malua.230225
     driver-class-name: org.postgresql.Driver
+
     hikari:
-      maximum-pool-size: 5
+      maximum-pool-size: 1
+      minimum-idle: 1
       connection-timeout: 30000
-      idle-timeout: 300000
-      max-lifetime: 600000
-      
+      idle-timeout: 30000
+      max-lifetime: 30000
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -26,18 +28,9 @@ spring:
 server:
   port: ${PORT:8080}
 
-
 logging:
   level:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     com.museum.backend: DEBUG
 
-spring:
-  datasource:
-    hikari:
-      maximum-pool-size: 2
-      minimum-idle: 1
-      idle-timeout: 10000
-      connection-timeout: 30000
-      max-lifetime: 60000
