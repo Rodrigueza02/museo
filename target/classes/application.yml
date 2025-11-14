@@ -3,7 +3,7 @@ spring:
     name: museovivo-backend
 
   datasource:
-    url: jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres
+    url: jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres?pgbouncer=true&prepareThreshold=0&sslmode=disable&tcpKeepAlive=true
     username: postgres.uerkoweysjcsflunegui
     password: Malua.230225
     driver-class-name: org.postgresql.Driver
@@ -33,4 +33,3 @@ logging:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     com.museum.backend: DEBUG
-
