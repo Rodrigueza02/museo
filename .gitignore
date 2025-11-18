@@ -9,5 +9,11 @@
 *.iml
 .DS_Store
 Thumbs.db
+
+# Variables locales
 .env
 
+# Asegurar que el Maven Wrapper NO sea ignorado
+!mvnw
+!mvnw.cmd
+!.mvn/
