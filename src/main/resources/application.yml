@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    url: jdbc:postgresql://up-de-fra1-postgresql-1.db.run-on-seenode.com:11550/db_61987t01jhj9
+    username: db_61987t01jhj9
+    password: mA23oqJ0Rsqm5pP4R7bhvEii
     driver-class-name: org.postgresql.Driver
 
   hikari:
@@ -27,7 +27,7 @@ spring:
     open-in-view: false
 
 server:
-  port: ${PORT:8080}
+  port: 8080
   address: 0.0.0.0
 
 logging:
@@ -35,7 +35,6 @@ logging:
     root: INFO
     com.museum.backend: INFO
 
-
 gemini:
-  endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyC3EqJbS0QPvshKhtPmrV69GN8g6Wlei2d"
+  endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
   api-key: "AIzaSyC3EqJbS0QPvshKhtPmrV69GN8g6Wlei2d"
