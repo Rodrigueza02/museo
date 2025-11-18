@@ -1,16 +1,16 @@
-# ---------- BUILD ----------
+
 FROM eclipse-temurin:21-jdk AS build
 
 WORKDIR /app
 COPY . .
 
-# Asegurar permisos del wrapper
+
 RUN chmod +x mvnw
 
-# Ejecutar el build
+
 RUN ./mvnw -DskipTests package
 
-# ---------- RUN ----------
+
 FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
