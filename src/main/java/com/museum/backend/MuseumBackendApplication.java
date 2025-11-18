@@ -1,4 +1,3 @@
-// Main entry point of the museum backend
 package com.museum.backend;
 
 import org.springframework.boot.SpringApplication;
@@ -10,3 +9,4 @@ public class MuseumBackendApplication {
         SpringApplication.run(MuseumBackendApplication.class, args);
     }
 }
+

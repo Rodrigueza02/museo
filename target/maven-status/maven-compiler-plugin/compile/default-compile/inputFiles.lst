@@ -1,11 +1,19 @@
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\config\DataLoader.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\config\SecurityConfig.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\model\Artwork.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\controller\ArtworkController.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\model\Painting.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\MuseumBackendApplication.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\repository\PaintingRepository.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\controller\PaintingController.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\repository\ArtworkRepository.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\service\ArtworkService.java
-C:\Users\jiliana rodriguez\Downloads\SoulTrip\src\main\java\com\museum\backend\service\PaintingService.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\dto\EmotionService.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\model\Painting.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\repository\ArtworkRepository.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\controller\ArtworkController.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\MuseumBackendApplication.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\controller\HealthController.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\service\PaintingService.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\config\SecurityConfig.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\controller\GeminiController.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\controller\RootController.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\service\ArtworkService.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\dto\EmotionResponse.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\repository\PaintingRepository.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\model\Artwork.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\controller\PaintingController.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\config\DataLoader.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\service\GeminiService.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\dto\EmotionRequest.java
+C:\Users\LENOVO\Documents\SoulTrip\src\main\java\com\museum\backend\dto\EmotionController.java
